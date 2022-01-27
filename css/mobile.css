@@ -1,14 +1,19 @@
 .container {
       border: none;
-      margin:auto;
+      margin: auto;
       display: flex;
       flex-flow: column nowrap;
 }
 
 
 .container img {
-     max-width: 18.8rem;
+      max-width: 18.8rem;
       max-height: 18.8rem;
       margin: 1.5rem auto;
       display: block;
+}
+
+.img-1, .img-2, .img-3,.img-4 {
+      border-bottom: 1px solid grey;
+      padding-bottom: 20px;
 }
