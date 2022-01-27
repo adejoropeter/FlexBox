@@ -34,17 +34,13 @@ table {
 
 .container {
       border: 1px solid red;
-      /* margin: 4rem 20px; */
+      margin: 4rem auto;
       
       width: 1000px;
       min-height: 600px;
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -30%);
       box-shadow: 1px 0px 5px 5px rgba(255, 0, 0, 0.239);
       border-radius: 10px;
 }
@@ -54,5 +50,5 @@ table {
       height: 18.8rem;
       margin: 20px;
       cursor: pointer;
-
+      border-radius: 6px;
 }
