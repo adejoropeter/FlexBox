@@ -1,0 +1,21 @@
+.container {
+      border: none;
+      margin:auto;
+      width: 100%;
+      min-height: 600px;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      border-radius: 10px;
+      overflow: hidden;
+}
+
+
+.container img {
+     max-width: 18.8rem;
+      max-height: 18.8rem;
+      margin: 30px auto;
+      cursor: pointer;
+      border-radius: 6px;
+      display: block;
+}
