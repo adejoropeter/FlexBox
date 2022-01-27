@@ -33,15 +33,12 @@ table {
 }
 
 .container {
-      border: 1px solid red;
-      margin: 4rem auto;
+      margin: 2rem auto;
       width: 100%;
       min-height: 600px;
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
-      box-shadow: 1px 0px 5px 5px rgba(255, 0, 0, 0.239);
-      border-radius: 10px;
 }
 
 /* 18.8rem is equal to 300px */
